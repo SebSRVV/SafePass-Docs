@@ -1,6 +1,7 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   basePath: '/safepassdocs',
-  trailingSlash: true
-};
+  trailingSlash: true,
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
