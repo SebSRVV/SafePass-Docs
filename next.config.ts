@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   basePath: '/safepassdocs',
-  trailingSlash: true,
+  assetPrefix: '/safepassdocs',
 }
 
 module.exports = nextConfig
