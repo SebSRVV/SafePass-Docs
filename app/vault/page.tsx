@@ -123,7 +123,7 @@ export default function VaultPage() {
   return (
     <div className="min-h-screen bg-gray-900 text-white p-8">
       <div className="max-w-3xl mx-auto space-y-6">
-        <h1 className="text-4xl font-extrabold text-center text-white-400">🔐 Vault de Contraseñas</h1>
+        <h1 className="text-4xl font-extrabold text-center text-white">🔐 Vault de Contraseñas</h1>
 
         {!activo && (
           <div className="flex justify-center space-x-4">
@@ -232,7 +232,12 @@ export default function VaultPage() {
                     <tr key={idx} className="border-t border-slate-700">
                       <td className="p-3">{e.sitio}</td>
                       <td className="p-3">
-                        <a href={e.url} target="_blank" rel="noopener noreferrer" className="text-sky-400 underline hover:text-sky-300">
+                        <a
+                          href={e.url.startsWith('http') ? e.url : `https://${e.url}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-sky-400 underline hover:text-sky-300"
+                        >
                           {e.url}
                         </a>
                       </td>
