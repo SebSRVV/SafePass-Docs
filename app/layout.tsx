@@ -40,10 +40,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 </Link>
               </li>
               <li>
-                <Link href="/" className="hover:text-sky-300 transition-colors">
-                  🏠 Inicio
-                </Link>
-              </li>
+  <Link href="/app-download" className="hover:text-sky-300 transition-colors">
+    🧩 App
+  </Link>
+</li>
             </ul>
           </div>
         </nav>
