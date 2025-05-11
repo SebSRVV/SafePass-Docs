@@ -76,6 +76,21 @@ export default function HomePage() {
 
         <p className="mt-10 text-center text-slate-500 italic">Desarrollado por SebRVV para tu seguridad digital.</p>
       </div>
+
+      {/* Botón flotante de GitHub */}
+      <a
+        href="https://github.com/SebSRVV/safepassdocs"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 w-14 h-14 bg-white rounded-full shadow-lg flex items-center justify-center hover:scale-110 transition-transform z-50"
+        title="Ver en GitHub"
+      >
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+          alt="GitHub"
+          className="w-8 h-8"
+        />
+      </a>
     </main>
   );
 }
