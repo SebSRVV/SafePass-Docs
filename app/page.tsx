@@ -74,7 +74,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        <p className="mt-10 text-center text-slate-500 italic">Desarrollado por SebRVV para tu seguridad digital.</p>
+        <p className="mt-10 text-center text-slate-500 italic">Desarrollado por Sebastian Rojas para tu seguridad digital.</p>
       </div>
 
       {/* Botón flotante de GitHub */}
