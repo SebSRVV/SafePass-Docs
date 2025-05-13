@@ -40,7 +40,7 @@ export default function AppPage() {
         </div>
 
         <p className="mt-10 text-sm text-slate-500 italic">
-          Proyecto desarrollado por <span className="text-white font-semibold">SebRVV</span> para fomentar la seguridad digital personal.
+          Proyecto desarrollado por <span className="text-white font-semibold">Sebastian Rojas</span> para fomentar la seguridad digital personal.
         </p>
       </div>
     </main>
